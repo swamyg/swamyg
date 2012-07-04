@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.swamyg.com$ [NC]
+RewriteRule ^(.*)$ http://swamyg.com/$1 [R=301,L]
+RewriteRule ^([^/\.]+)/?$ index.php?module=$1 [NC,QSA]
+#RewriteRule ^(\w+)/?$ index.php?module=$1 [NC,QSA]
+RewriteRule ^([^/\.]+)/([^/\.]+)/?$ index.php?module=$1&section=$2 [NC,QSA]

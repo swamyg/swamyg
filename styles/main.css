@@ -1,0 +1,95 @@
+<style type="text/css">
+/*
+Theme: White Space 2.5
+Release date: 21 Mar 2008
+Author: Heather Rivers (http://heather-rivers.com/)
+License: Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported
+Details: http://creativecommons.org/licenses/by-nc-sa/3.0/
+*/
+
+/* General */
+* {margin:0;padding:0;}
+body {font-family:verdana;background:#fff;}
+body, div, table, p {font-size:12px;line-height:24px;}
+p {margin-top:12px;margin-bottom:12px;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+h3 {font-size:30px;line-height:48px;margin-top:6px;margin-bottom:6px;}
+h4 {font-size:30px;line-height:36px;margin-top:6px;margin-bottom:6px;}
+div.post a, div#about p a {text-decoration:none;color:#333;background-color:#eee;padding:2px 6px;border-bottom:1px dotted #333;line-height:28px;}
+div.post a:hover, div#about p a:hover {background-color:#FFFF33;border-bottom:1px solid #333;}
+div.post ul {list-style-image:url(http://hr1v.com/remote/white-space/img/star.png);margin-left:18px;}
+div.post ol {margin-left:18px;}
+div.post blockquote {margin-left:18px;}
+a img {border:0;}
+.left {text-align:left;padding:12px;}
+code {color:#006600;background-color:#e2f4e5;padding:2px;}
+
+/* Positioning */
+div#posts {float:right;margin:40px 5px 20px 5px;}
+div.post {position:relative;width:920px;background:#fff;padding:36px;padding-left:0;}
+
+/* Post info */
+div.post-info {font-size:10px;line-height:16px;position:absolute;bottom:2;right:0;color:#000;background-color:#fff;padding:0 9px;z-index:1;display:none;border-bottom:1px dotted black;border-right:1px solid white;}
+div.post:hover div.post-info {display:block;}
+div.post-info a {color:#000;background-color:#fff;border:0;}
+div.post-info a:hover {color:#000;background-color:#eee;}
+div.post-info span.date {margin:0 6px;}
+
+/* Photo post */
+div.photo {text-align:center;}
+div.the-photo a {padding:0;border:0;background-color:#fff;}
+div.photo span.flick, div.photo span.r {font-weight:bold;text-transform:lowercase;}
+div.photo span.flick {color:#0063dc;}
+div.photo span.r {color:#ff0084;}
+div.photo p {text-align:left;margin:6px 18px;}
+div.photo blockquote {text-align:left;padding-left:12px;border-left:6px solid #eee;}
+
+/* Quote post */
+div.quote img.openquote {position:absolute;left:-12px;top:44px;width:20px;height:15px;}
+div.quote img.endquote {margin-left:6px;width:20px;height:15px;}
+div.quote h4 {margin-top:6px;margin-bottom:6px;text-indent:16px;}
+div.quote h4.short {font-size:30px;line-height:36px;}
+div.quote h4.medium {font-size:24px;line-height:30px;}
+div.quote h4.long {font-size:18px;line-height:24px;}
+
+/* About (sidebar) */
+div#sidebar {position:fixed;right:1000px;text-align:right;}
+div#sidebar h1 {margin:24px 0;}
+div#sidebar h1 a {font-size:36px;line-height:96px;text-transform:lowercase;text-decoration:none;color:#000;border:0;background:none;}
+div#sidebar img#title {float:right;border:0;padding:24px 0;width:295px;height:181px;}
+div#sidebar h1:hover {color:#666;}
+div#sidebar div#about {width:330px;float:right;clear:both;}
+p#credits {font-size:10px;color:#666;margin-top:-10em;}
+div#sidebar{background:url(/swamyg/images/back5.png) no-repeat 110% 0%;}
+
+/* Permalink navigation */
+div#permalink-nav {z-index:10;width:316px;height:16px;margin:72px auto 0 auto;position:relative;}
+div#permalink-nav a {padding:0;margin:0;border:0;background-color:#fff;}
+div#something-older {position:absolute;top:0;left:0;width:138px;height:16px;background-image:url(http://hr1v.com/remote/white-space/img/something-older-disabled.png);}
+img#something-starry {position:absolute;top:0;left:149px;width:11px;height:16px;}
+div#something-newer {position:absolute;top:0;left:171px;width:145px;height:16px;background-image:url(http://hr1v.com/remote/white-space/img/something-newer-disabled.png);}
+
+/* Do what you will, supposed outsiders of my soul  - Custom CSS*/
+div#about p a.active {background-color:#000;color:#FFF;}
+/* colors */
+.blue{color:#5C9FDC}
+.magenta{color:#FF8298}
+/* styles */
+.heading{font-size:1.5em}
+.sub-heading{font-size:1.3em}
+.thicker{font-weight:300;}
+.bold{font-weight:bold;}
+a.normal:link, a.normal:visited{background-color:#FFF !important;border:none !important;padding:0px;}
+a.normal:link, a.normal:visited{text-decoration:none;font-weight:bold;color:#1005FF;padding:0px;}
+a.normal:hover{background-color:#FFF !important;padding:0px;text-decoration:none;font-weight:bold;color:#1005FF;border-bottom:2px dotted #1005FF !important;}
+a.image:link, a.image:visited{background-color:#FFF !important;border:none !important;}
+a.image:hover{background-color:#FFF !important;;border:none !important;}
+/*position*/
+.right{float:right;right:5em}
+.break{margin:0.0em 0em 1em 0em;}
+.bigbreak{margin-bottom:2em;}
+.push-left{margin-left:1.5em;}
+.just{text-align:justify;width:95%;}
+</style>
+
+
